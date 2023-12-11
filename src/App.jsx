@@ -61,8 +61,7 @@ let testimonials = [{
     para:"Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!"
     }
 ]
-  return (
-    <>
+  return     <>
        <nav className="navbar navbar-light bg-light static-top">
             <div className="container">
                 <a className="navbar-brand" href="#!">Start Bootstrap</a>
@@ -112,8 +111,6 @@ let testimonials = [{
                {imageshowcase.map((e,i)=>{return <Imageshowcase image={e.image} title={e.title} para={e.para} key={i}/> })}
             </div>
         </section>
-    
-      
       <section className="testimonials text-center bg-light">
             <div className="container">
               <h2 className="mb-5">What people are saying...</h2>
@@ -128,7 +125,5 @@ let testimonials = [{
       <Footer />
      
     </>
-  )
 }
-
 export default App

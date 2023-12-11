@@ -3768,11 +3768,8 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
 }
-.reverse:nth-child(even){
-  display: flex;
-  flex-wrap: wrap;
+.reverse:nth-child(2){
   flex-direction: row-reverse ;
-
 }
 .navbar-brand {
   padding-top: var(--bs-navbar-brand-padding-y);
