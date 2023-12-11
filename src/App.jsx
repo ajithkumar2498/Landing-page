@@ -13,7 +13,7 @@ import Footer from './components/Footer.jsx'
 
 
 function App() {
-  let bg={img:"./img/bg-masthead.jpg"}
+  let bg={img:".components/img/bg-masthead.jpg"}
 let icons =[
     {   icon:"bi-window",
         name:"fully Responsive",
@@ -30,34 +30,34 @@ let icons =[
 ]
 
 let testimonials = [{
-  image:"./img/testimonials-1.jpg",
+  image:"./components/img/testimonials-1.jpg",
   name:"Margaret E.",
   para:"This is fantastic! Thanks so much guys!"
 },
 {
-    image:"./img/testimonials-2.jpg",
+    image:"./components/img/testimonials-2.jpg",
     name:"Fred S.",
     para:"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."
   },
   {
-    image:"./img/testimonials-3.jpg",
+    image:"./components/img/testimonials-3.jpg",
     name:"Sarah W.",
     para:"Thanks so much for making these free resources available to us!"
   }
 ]
  let imageshowcase=[
     {
-    image:"./img/bg-showcase-1.jpg",
+    image:"./components/img/bg-showcase-1.jpg",
     title:"Fully Responsive Design",
     para:"When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!"
     },
     {
-    image:"./img/bg-showcase-2.jpg",
+    image:"./components/img/bg-showcase-2.jpg",
     title:"Updated For Bootstrap 5",
     para:"Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!"
     },
     {
-    image:"./img/bg-showcase-3.jpg",
+    image:"./components/img/bg-showcase-3.jpg",
     title:"Easy to Use & Customize",
     para:"Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!"
     }
