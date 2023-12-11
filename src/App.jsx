@@ -5,6 +5,7 @@ import Imageshowcase from './components/Imageshowcase.jsx'
 import Testimonials from './components/Testimonials.jsx'
 import Calltoaction from './components/Calltoaction.jsx'
 import Footer from './components/Footer.jsx'
+// import bg-masthead from './img/'
 
 
 // import { faWindow } from '@fontawesome/free-solid-svg-icons';
@@ -12,7 +13,7 @@ import Footer from './components/Footer.jsx'
 
 
 function App() {
-  let bg={img:"./src/img/bg-masthead.jpg"}
+  let bg={img:"./img/bg-masthead.jpg"}
 let icons =[
     {   icon:"bi-window",
         name:"fully Responsive",
