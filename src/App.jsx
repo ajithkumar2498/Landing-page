@@ -1,15 +1,21 @@
-import { useState } from 'react'
+
 import './App.css'
 import Icontypes from './components/Icontypes.jsx'
 import Imageshowcase from './components/Imageshowcase.jsx'
 import Testimonials from './components/Testimonials.jsx'
 import Calltoaction from './components/Calltoaction.jsx'
 import Footer from './components/Footer.jsx'
+import test1 from '../src/img/testimonials-1.jpg'
+import test2 from '../src/img/testimonials-2.jpg'
+import test3 from '../src/img/testimonials-3.jpg'
+import bg1 from '../src/img/bg-showcase-1.jpg'
+import bg2 from '../src/img/bg-showcase-2.jpg'
+import bg3 from '../src/img/bg-showcase-3.jpg'
 
 
 
 function App() {
-  // let bg={img:"./src/img/bg-masthead.jpg"}
+
 let icons =[
     {   icon:"bi-window",
         name:"fully Responsive",
@@ -26,34 +32,34 @@ let icons =[
 ]
 
 let testimonials = [{
-  image:"./src/img/testimonials-1.jpg",
+  image:test1,
   name:"Margaret E.",
   para:"This is fantastic! Thanks so much guys!"
 },
 {
-    image:"./src/img/testimonials-2.jpg",
+    image:test2,
     name:"Fred S.",
     para:"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."
   },
   {
-    image:"./src/img/testimonials-3.jpg",
+    image:test3,
     name:"Sarah W.",
     para:"Thanks so much for making these free resources available to us!"
   }
 ]
  let imageshowcase=[
     {
-    image:"./src/img/bg-showcase-1.jpg",
+    image:bg1,
     title:"Fully Responsive Design",
     para:"When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!"
     },
     {
-    image:"./src/img/bg-showcase-2.jpg",
+    image:bg2,
     title:"Updated For Bootstrap 5",
     para:"Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!"
     },
     {
-    image:"./src/img/bg-showcase-3.jpg",
+    image:bg3,
     title:"Easy to Use & Customize",
     para:"Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!"
     }
